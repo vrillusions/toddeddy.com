@@ -175,6 +175,8 @@ params:
     - name: Mastodon
       icon: fa fa-2x fa-mastodon
       weight: 4
+      # used for mastodon to mark it as verified link
+      rel: me
       url: 'https://mastodon.online/@vrillusions'
 
     - name: Keybase
