@@ -10,7 +10,7 @@ if [[ $# -ge 1 ]] && [[ $1 == 'buildDrafts' ]]; then
 fi
 
 # Add extra debugging if stuff is broken
-extra_args="${extra_args} --log --verbose --debug"
+extra_args="${extra_args} --logLevel debug --verbose --debug"
 
 # Other options I've used but not sure if needed when in dev mode
 #--cleanDestinationDir --gc
