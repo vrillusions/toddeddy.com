@@ -106,6 +106,7 @@ params:
 # code = "ABCDE"
 
 # If you want to implement a Content-Security-Policy, add this section
+# NOTE: this is being handled in nginx config
 # [params.csp]
 # childsrc = ["'self'"]
 # fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
