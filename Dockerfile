@@ -4,7 +4,7 @@ FROM alpine:3.18 AS build
 RUN apk add --no-cache git
 
 # see https://github.com/gohugoio/hugo/releases/latest
-ARG HUGO_VERSION="0.117.0"
+ARG HUGO_VERSION="0.118.2"
 
 # Change file prefix to "hugo_extended_" if you want extended version
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /hugo.tar.gz
