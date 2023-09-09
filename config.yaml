@@ -58,6 +58,11 @@ params:
   # Custom remote JS files
   customRemoteJS: []
 
+  # If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+  goatCounter:
+    code: "vrillusions"
+
+
 # NOTE you'll need to migrate any of these over to yaml format
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -162,33 +167,48 @@ params:
 #      - '''self'''
 #      - 'https://www.google-analytics.com'
 
+# icon list (unsure how to figure out what version this has): https://forkaweso.me/Fork-Awesome/icons/
+#
   social:
     - name: Github
       icon: fa fa-2x fa-github
-      weight: 1
+      weight: 20
       url: 'https://github.com/vrillusions/'
 
     - name: Twitter
       icon: fa fa-2x fa-twitter
-      weight: 3
+      weight: 30
       url: 'https://twitter.com/vrillusions/'
 
     - name: Mastodon
       icon: fa fa-2x fa-mastodon
-      weight: 4
+      weight: 31
       # used for mastodon to mark it as verified link
       rel: me
       url: 'https://mastodon.online/@vrillusions'
 
+    # no bluesky icon
+    #- name: Bluesky
+    #  icon: fa fa-2x fa-bluesky
+    #  weight: 32
+    #  rel: me
+    #  url: 'https://bsky.app/profile/vrillusions.bsky.social'
+
     - name: Keybase
       icon: fa fa-2x fa-keybase
-      weight: 5
+      weight: 30
       url: 'https://keybase.io/vrillusions'
 
     - name: LinkedIn
       icon: fa fa-2x fa-linkedin
-      weight: 6
+      weight: 40
       url: 'https://www.linkedin.com/in/toddeddy/'
+
+    # no polywork icon
+    #- name: Timeline
+    #  icon: fa fa-2x fa-polywork
+    #  weight: 41
+    #  url: 'https://timeline.toddeddy.com/'
 
     #- name: RSS
     #  icon: fa fa-2x fa-rss
