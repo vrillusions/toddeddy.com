@@ -16,6 +16,7 @@ While specializing in Linux setup and configuration, Todd Eddy is known for his 
 
 When not working, Todd enjoys an ever growing list of hobbies.  These include:
 
+- Amateur radio
 - Building simple electronic circuits, PCB design, and soldering
 - Making use of existing and custom-made sensors used throughout house for home automation
 - Woodworking

@@ -3,7 +3,6 @@ title: Todd Eddy
 theme: hugo-coder
 languageCode: en
 defaultContentLanguage: en
-paginate: 20
 enableEmoji: true
 enableGitinfo: false
 # Enable Disqus comments
@@ -16,6 +15,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+pagination:
+  pagerSize: 20
 
 params:
   author: Todd Eddy
@@ -172,36 +174,35 @@ params:
 #
   social:
     - name: Github
-      icon: fa fa-2x fa-github
+      icon: fa fa-2x fa-brands fa-github
       weight: 20
       url: 'https://github.com/vrillusions/'
 
     - name: Twitter
-      icon: fa fa-2x fa-twitter
+      icon: fa fa-2x fa-brands fa-x-twitter
       weight: 30
       url: 'https://twitter.com/vrillusions/'
 
     - name: Mastodon
-      icon: fa fa-2x fa-mastodon
+      icon: fa fa-2x fa-brands fa-mastodon
       weight: 31
       # used for mastodon to mark it as verified link
       rel: me
       url: 'https://mastodon.online/@vrillusions'
 
-    # no bluesky icon
-    #- name: Bluesky
-    #  icon: fa fa-2x fa-bluesky
-    #  weight: 32
-    #  rel: me
-    #  url: 'https://bsky.app/profile/vrillusions.bsky.social'
+    - name: Bluesky
+      icon: fa fa-2x fa-brands fa-bluesky
+      weight: 32
+      rel: me
+      url: 'https://bsky.app/profile/vrillusions.bsky.social'
 
     - name: Keybase
-      icon: fa fa-2x fa-keybase
+      icon: fa fa-2x fa-brands fa-keybase
       weight: 30
       url: 'https://keybase.io/vrillusions'
 
     - name: LinkedIn
-      icon: fa fa-2x fa-linkedin
+      icon: fa fa-2x fa-brands fa-linkedin
       weight: 40
       url: 'https://www.linkedin.com/in/toddeddy/'
 
